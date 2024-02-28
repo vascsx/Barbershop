@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #000000;
+  --text-color: hsl(0, 12%, 95%);
+  --bg-red: #EF0B0B;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Covered By Your Grace", cursive;
+
+}

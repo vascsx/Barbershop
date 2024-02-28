@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--bg-red);
+  gap: 22px;
+  height: 60vh;
+
+  p, h1 {
+    color: var(--text-color);
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+  
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+  }
+
+  img {
+    border-radius: 65px
+  }
+}
