@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px;
+  justify-content: space-between;
+  background-color: var(--bg-red);
+  height: 167px;
+  gap: 20px;
+
+  button {
+    background-color: var(--bg-red);
+    border: none;
+  }
+  img {
+    border-radius: 30px;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+  }
+}
