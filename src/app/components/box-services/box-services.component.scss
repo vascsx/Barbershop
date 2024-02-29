@@ -5,14 +5,26 @@
   justify-content: center;
   color: black;
   margin: 20px;
+  padding: 10px 8px;
   
-  .box {
+  
+  button {
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: var(--bg-box);
     border-radius: 10px;
     margin-bottom: 20px;
-    width: 90%;
-    gap: 30px;
+    height: 48px;
+    width: 80vw;
+    gap: 20px;
+    border: none;
+
+    p {
+      color: var(--text-principal);
+      font-size: 19px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+    }
   }
 }
