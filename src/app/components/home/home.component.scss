@@ -10,12 +10,14 @@ main{
   gap: 22px;
   height: 60vh;
 
+  
   p, h1 {
     color: var(--text-color);
   }
 
   h1 {
     font-size: 27px;
+    margin-bottom: 10px;
   }
   
   p {
@@ -29,4 +31,31 @@ main{
     border-radius: 65px
   }
 }
+}
+
+@media (min-width: 768px) {
+  main{
+    flex-direction: row;
+    header {
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      gap: 32px;
+
+
+      img {
+        width: 300px;
+      }
+      h1 {
+        font-size: 48px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .text-header {
+        text-align: justify;
+      }
+    }
+  }
 }

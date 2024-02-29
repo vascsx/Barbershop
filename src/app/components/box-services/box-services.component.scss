@@ -28,3 +28,13 @@
     }
   }
 }
+
+@media(min-width: 768px) {
+  .box-container {
+    .box {
+      height: 30vh;
+    }
+
+  }
+  
+}

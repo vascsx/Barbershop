@@ -7,3 +7,9 @@ footer {
   height: 41px;
   background-color: rgba(232, 228, 223, 0.77);
 }
+
+@media(min-width: 768px){
+  .footer {
+    height: 81px;
+  }
+}
