@@ -1,8 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CalendarioComponent } from '../../icons/calendario/calendario.component';
 import { LocalizacaoComponent } from '../../icons/localizacao/localizacao.component';
 import { ServicosComponent } from '../../icons/servicos/servicos.component';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-box-services',
@@ -17,4 +16,7 @@ import { Router } from '@angular/router';
 })
 export class BoxServicesComponent {
 
+
+
+  
 }
