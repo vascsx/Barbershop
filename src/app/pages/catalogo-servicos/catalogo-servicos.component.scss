@@ -1,0 +1,18 @@
+
+.container-catalogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 25px;
+  .box-catalogo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    img {
+      border-radius: 12px;
+    }
+  }
+
+}
