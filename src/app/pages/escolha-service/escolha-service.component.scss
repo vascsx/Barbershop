@@ -26,3 +26,15 @@
     }
   }
 }
+
+
+@media (min-width: 768px) {
+
+  .container-services{
+
+    .box-services {
+      background-color: red;
+      flex-direction: row;
+    }
+  }
+}

@@ -14,7 +14,7 @@ export const routes: Routes = [
   } ,
 
   {
-    path: "escolha",
+    path: "profissional",
     component: ProfissionalComponent
   },
 

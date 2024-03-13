@@ -1,5 +1,5 @@
-
 .container-catalogo {
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,5 +14,23 @@
       border-radius: 12px;
     }
   }
+}
 
+@media (min-width: 768px) {
+  .container-catalogo {
+    margin: 25px;
+    gap: 30px;
+    img {
+      width: 190px;
+    }
+    
+    .box-catalogo {
+
+      p {
+        font-size: 1.35rem;
+      }
+      gap: 15px;
+      text-align: center;
+    }
+  }
 }

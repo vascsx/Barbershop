@@ -11,6 +11,13 @@ header {
     font-size: 1.5rem;
   }
 
+  .perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
   button {
     display: flex;
     align-items: center;
