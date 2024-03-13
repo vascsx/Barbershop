@@ -34,3 +34,25 @@ header {
     margin-left: 52px;
   }
 }
+
+@media ( min-width: 768px ) {
+  header {
+    justify-content: space-between;
+
+    .perfil {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+
+      img {
+        width: 90px;
+        border-radius: 50%;
+      }
+      h2 {
+        font-size: 1.55rem;
+      }
+    }
+   
+  }
+}
